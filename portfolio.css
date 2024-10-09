@@ -212,8 +212,12 @@ header {
     width: 70%;
 }
 
-.progress-line .c {
+.progress-line .reactjs {
     width: 70%;
+}
+
+.progress-line .sql{
+    width:90%;
 }
 
 .bar .progress-line span::before {
@@ -258,8 +262,11 @@ header {
     content: "80%";
 }
 
-.progress-line .c::after {
+.progress-line .reactjs::after {
     content: "70%";
+}
+.progress-line .sql::after {
+    content: "90%";
 }
 
 .navbar.solid {
